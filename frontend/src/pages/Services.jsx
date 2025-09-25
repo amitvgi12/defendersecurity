@@ -59,7 +59,7 @@ const Services = () => {
                     </div>
                   </div>
 
-                  <Button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3">
+                  <Button className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3">
                     Get Quote
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
