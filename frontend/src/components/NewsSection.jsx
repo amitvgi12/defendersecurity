@@ -30,7 +30,7 @@ const NewsSection = () => {
           </div>
           <Button 
             variant="outline" 
-            className="mt-4 md:mt-0 border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition-all duration-300"
+            className="mt-4 md:mt-0 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white transition-all duration-300"
           >
             View All News
             <ExternalLink className="w-4 h-4 ml-2" />
