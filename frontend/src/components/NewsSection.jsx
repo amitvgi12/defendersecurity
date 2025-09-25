@@ -90,7 +90,7 @@ const NewsSection = () => {
 
         {/* Career Section */}
         <div className="mt-20">
-          <div className="bg-gradient-to-r from-red-600 via-red-500 to-red-600 rounded-2xl p-12 text-center relative overflow-hidden">
+          <div className="bg-gradient-to-r from-teal-600 via-teal-500 to-teal-600 rounded-2xl p-12 text-center relative overflow-hidden">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10">
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-white rounded-full"></div>
