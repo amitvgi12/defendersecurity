@@ -50,7 +50,7 @@ const Career = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Join Our Team
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-teal-100 max-w-3xl mx-auto">
               Build a rewarding career in the security industry with opportunities for growth and development
             </p>
           </div>
