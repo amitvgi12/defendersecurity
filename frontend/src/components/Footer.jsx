@@ -135,7 +135,7 @@ const Footer = () => {
                   className="bg-gray-800 border-gray-700 text-white placeholder-gray-400 focus:border-red-600"
                 />
                 <Button 
-                  className="bg-red-600 hover:bg-red-700 transition-colors duration-300"
+                  className="bg-teal-600 hover:bg-teal-700 transition-colors duration-300"
                 >
                   <ArrowRight className="w-4 h-4" />
                 </Button>
