@@ -21,7 +21,7 @@ const Services = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Our Services
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-teal-100 max-w-3xl mx-auto">
               Comprehensive security solutions tailored to meet your specific requirements
             </p>
           </div>
