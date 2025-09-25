@@ -7,19 +7,22 @@ const HeroSection = () => {
 
   const slides = [
     {
-      title: "A Market Leader in Security Solutions & Facility Management",
-      subtitle: "Providing comprehensive security and manpower services across India",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      title: "Protect What Matters Most With Our Reliable Security Solutions",
+      subtitle: "Secure Your Business Today",
+      description: "Secure your peace of mind with our top-rated security and manpower services",
+      image: "https://img1.wsimg.com/isteam/ip/95804eb6-e04e-4ff7-9bcd-f341308d975f/ChatGPT%20Image%20May%206%2C%202025%20at%2001_47_29%20PM.png/:/rs=h:1000,cg:true,m",
     },
     {
-      title: "Trusted Security Partner for Businesses Nationwide",
-      subtitle: "Excellence in delivering exceptional security services to establishments",
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      title: "Professional Security Personnel for Every Need", 
+      subtitle: "Trusted Security Services",
+      description: "Comprehensive security solutions tailored to your business requirements",
+      image: "https://img1.wsimg.com/isteam/ip/95804eb6-e04e-4ff7-9bcd-f341308d975f/ChatGPT%20Image%20May%206%2C%202025%20at%2001_47_29%20PM.png/:/rs=h:1000,cg:true,m",
     },
     {
-      title: "Advanced Security Solutions for Modern Businesses",
-      subtitle: "Technology-driven security services for complete peace of mind",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=2126&q=80",
+      title: "Excellence in Security and Staffing Services",
+      subtitle: "Your Reliable Partners",
+      description: "Dedicated to providing exceptional security services to establishments nationwide", 
+      image: "https://img1.wsimg.com/isteam/ip/95804eb6-e04e-4ff7-9bcd-f341308d975f/ChatGPT%20Image%20May%206%2C%202025%20at%2001_47_29%20PM.png/:/rs=h:1000,cg:true,m",
     }
   ];
 
