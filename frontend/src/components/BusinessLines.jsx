@@ -56,7 +56,7 @@ const BusinessLines = () => {
                   <ul className="space-y-2">
                     {line.services.slice(0, 3).map((service, idx) => (
                       <li key={idx} className="text-sm text-gray-700 flex items-center">
-                        <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
+                        <div className="w-1.5 h-1.5 bg-teal-600 rounded-full mr-3"></div>
                         {service}
                       </li>
                     ))}
