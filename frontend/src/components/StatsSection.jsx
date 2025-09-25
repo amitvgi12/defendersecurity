@@ -142,7 +142,7 @@ const StatsSection = () => {
                   )}
                   {stat.suffix && <span className="text-lg ml-1">{stat.suffix}</span>}
                 </div>
-                <div className="text-blue-100 text-sm font-medium uppercase tracking-wide">
+                <div className="text-teal-100 text-sm font-medium uppercase tracking-wide">
                   {stat.label}
                 </div>
               </div>
