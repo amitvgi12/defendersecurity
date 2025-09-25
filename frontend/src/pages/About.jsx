@@ -89,8 +89,8 @@ const About = () => {
               return (
                 <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="p-8">
-                    <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <IconComponent className="w-8 h-8 text-red-600" />
+                    <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <IconComponent className="w-8 h-8 text-teal-600" />
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900 mb-4">{feature.title}</h3>
                     <p className="text-gray-600 leading-relaxed">{feature.description}</p>
