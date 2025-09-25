@@ -156,7 +156,7 @@ const StatsSection = () => {
             <h3 className="text-2xl font-bold text-white mb-4">
               Expanding Across India
             </h3>
-            <p className="text-blue-100 leading-relaxed">
+            <p className="text-teal-100 leading-relaxed">
               With operations spanning multiple districts and a growing network of branch offices, 
               Defender Security Services continues to expand its reach to serve clients nationwide. 
               Our commitment to excellence drives us to establish new partnerships and deliver 
