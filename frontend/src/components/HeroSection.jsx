@@ -99,14 +99,14 @@ const HeroSection = () => {
       {/* Navigation Buttons */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-teal-600/20 hover:bg-teal-600/40 text-teal-800 p-3 rounded-full transition-all duration-300 backdrop-blur-sm"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
       
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm"
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-teal-600/20 hover:bg-teal-600/40 text-teal-800 p-3 rounded-full transition-all duration-300 backdrop-blur-sm"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
@@ -118,7 +118,7 @@ const HeroSection = () => {
             key={index}
             onClick={() => setCurrentSlide(index)}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentSlide ? "bg-white" : "bg-white/50"
+              index === currentSlide ? "bg-teal-600" : "bg-teal-600/50"
             }`}
           />
         ))}
