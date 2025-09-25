@@ -21,15 +21,15 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="flex items-center space-x-2">
-              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                  <span className="text-red-600 font-bold text-sm">D</span>
-                </div>
-              </div>
+            <div className="flex items-center space-x-3">
+              <img 
+                src="https://img1.wsimg.com/isteam/ip/9621693c-899c-4763-b9aa-02fc73963b49/blob-9b78866.png/:/rs=h:120,cg:true,m/qt=q:95" 
+                alt="Defender Security Services Logo" 
+                className="h-16 w-auto"
+              />
               <div className="flex flex-col">
-                <span className="text-red-600 text-sm font-semibold">Defender Security Services</span>
-                <span className="text-gray-600 text-xs">A Market Leader in Security Solutions</span>
+                <span className="text-gray-800 text-lg font-bold">Defender Security Services</span>
+                <span className="text-gray-600 text-sm">& Staffing Services</span>
               </div>
             </div>
           </Link>
