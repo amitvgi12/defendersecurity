@@ -37,7 +37,7 @@ const About = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               About Defender Security Services
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-teal-100 max-w-3xl mx-auto">
               Leading security solutions provider with a commitment to excellence and customer satisfaction
             </p>
           </div>
