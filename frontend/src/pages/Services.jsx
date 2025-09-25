@@ -9,7 +9,7 @@ const Services = () => {
   const getIcon = (index) => {
     const icons = [Shield, Users, Settings];
     const IconComponent = icons[index];
-    return <IconComponent className="w-16 h-16 text-red-600" />;
+    return <IconComponent className="w-16 h-16 text-teal-600" />;
   };
 
   return (
