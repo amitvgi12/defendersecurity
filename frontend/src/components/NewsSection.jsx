@@ -107,7 +107,7 @@ const NewsSection = () => {
               <Button 
                 size="lg"
                 variant="secondary"
-                className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
+                className="bg-white text-teal-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
                 Join Now
                 <ArrowRight className="w-5 h-5 ml-2" />
