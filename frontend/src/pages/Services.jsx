@@ -87,7 +87,7 @@ const Services = () => {
           <p className="text-xl text-gray-600 mb-8">
             Our security experts are ready to design a comprehensive plan tailored to your specific requirements.
           </p>
-          <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg">
+          <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 text-lg">
             Request Free Consultation
           </Button>
         </div>
