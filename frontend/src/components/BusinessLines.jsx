@@ -8,7 +8,7 @@ const BusinessLines = () => {
   const getIcon = (index) => {
     const icons = [Shield, Users, Settings];
     const IconComponent = icons[index];
-    return <IconComponent className="w-12 h-12 text-red-600 mb-4" />;
+    return <IconComponent className="w-12 h-12 text-teal-600 mb-4" />;
   };
 
   return (
