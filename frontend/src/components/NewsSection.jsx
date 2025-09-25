@@ -53,7 +53,7 @@ const NewsSection = () => {
                 <div className="absolute top-4 left-4">
                   <Badge 
                     variant="secondary" 
-                    className="bg-red-600 text-white hover:bg-red-700"
+                    className="bg-teal-600 text-white hover:bg-teal-700"
                   >
                     {item.category}
                   </Badge>
