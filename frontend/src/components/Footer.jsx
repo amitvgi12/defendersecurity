@@ -43,7 +43,7 @@ const Footer = () => {
               <Button variant="ghost" size="sm" className="p-2 hover:bg-teal-600 transition-colors duration-300">
                 <Twitter className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="sm" className="p-2 hover:bg-red-600 transition-colors duration-300">
+              <Button variant="ghost" size="sm" className="p-2 hover:bg-teal-600 transition-colors duration-300">
                 <Linkedin className="w-5 h-5" />
               </Button>
               <Button variant="ghost" size="sm" className="p-2 hover:bg-red-600 transition-colors duration-300">
