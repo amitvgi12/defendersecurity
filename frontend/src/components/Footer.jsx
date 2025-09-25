@@ -107,19 +107,19 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-6">Contact Info</h3>
             <div className="space-y-4 mb-8">
               <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-teal-600 mt-1 flex-shrink-0" />
                 <div className="text-gray-400">
                   {companyInfo.contact.address}
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-red-600" />
+                <Phone className="w-5 h-5 text-teal-600" />
                 <div className="text-gray-400">
                   {companyInfo.contact.phone}
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-red-600" />
+                <Mail className="w-5 h-5 text-teal-600" />
                 <div className="text-gray-400">
                   {companyInfo.contact.email}
                 </div>
