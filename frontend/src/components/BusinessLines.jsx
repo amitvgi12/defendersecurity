@@ -65,7 +65,7 @@ const BusinessLines = () => {
                 
                 <Button 
                   variant="outline" 
-                  className="w-full group-hover:bg-red-600 group-hover:text-white group-hover:border-red-600 transition-all duration-300"
+                  className="w-full group-hover:bg-teal-600 group-hover:text-white group-hover:border-teal-600 transition-all duration-300"
                 >
                   Know More
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
