@@ -142,7 +142,7 @@ const Career = () => {
           <p className="text-xl text-gray-600 mb-8">
             We're always looking for talented individuals. Send us your resume and we'll keep you in mind for future opportunities.
           </p>
-          <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg">
+          <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 text-lg">
             Send Your Resume
           </Button>
         </div>
