@@ -67,7 +67,7 @@ const NewsSection = () => {
                   {formatDate(item.date)}
                 </div>
 
-                <h3 className="text-lg font-bold text-gray-900 mb-3 leading-tight group-hover:text-red-600 transition-colors duration-300 line-clamp-2">
+                <h3 className="text-lg font-bold text-gray-900 mb-3 leading-tight group-hover:text-teal-600 transition-colors duration-300 line-clamp-2">
                   {item.title}
                 </h3>
 
