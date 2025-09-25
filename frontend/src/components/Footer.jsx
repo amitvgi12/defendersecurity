@@ -23,11 +23,13 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center">
-                <Shield className="w-6 h-6 text-white" />
-              </div>
+              <img 
+                src="https://img1.wsimg.com/isteam/ip/9621693c-899c-4763-b9aa-02fc73963b49/blob-9b78866.png/:/rs=h:60,cg:true,m/qt=q:95" 
+                alt="Defender Security Services Logo" 
+                className="h-12 w-auto"
+              />
               <div>
-                <div className="font-bold text-lg">Defender Security</div>
+                <div className="font-bold text-lg text-white">Defender Security</div>
                 <div className="text-gray-400 text-sm">Services</div>
               </div>
             </div>
