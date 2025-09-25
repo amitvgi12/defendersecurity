@@ -78,7 +78,7 @@ const NewsSection = () => {
                 <Button 
                   variant="ghost" 
                   size="sm"
-                  className="p-0 h-auto text-red-600 hover:text-red-700 font-medium group-hover:translate-x-1 transition-all duration-300"
+                  className="p-0 h-auto text-teal-600 hover:text-teal-700 font-medium group-hover:translate-x-1 transition-all duration-300"
                 >
                   read more
                   <ArrowRight className="w-4 h-4 ml-2" />
