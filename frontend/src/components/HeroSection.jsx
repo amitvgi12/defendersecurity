@@ -40,7 +40,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section className="relative min-h-screen bg-gray-50 overflow-hidden">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
@@ -50,38 +50,45 @@ const HeroSection = () => {
             index < currentSlide ? "-translate-x-full" : "translate-x-full"
           }`}
         >
-          <div
-            className="w-full h-full bg-cover bg-center relative"
-            style={{ backgroundImage: `url(${slide.image})` }}
-          >
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-blue-900/70"></div>
-            
-            {/* Content */}
-            <div className="absolute inset-0 flex items-center">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="max-w-3xl">
-                  <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                    {slide.title}
-                  </h1>
-                  <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
+          <div className="w-full h-full bg-gray-50 relative flex items-center">
+            {/* Content Grid */}
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+              <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen py-20">
+                {/* Left Content */}
+                <div className="space-y-6">
+                  <p className="text-gray-600 uppercase tracking-wide text-sm font-medium">
                     {slide.subtitle}
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                    {slide.title}
+                  </h1>
+                  <p className="text-xl text-gray-600 leading-relaxed">
+                    {slide.description}
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 pt-4">
                     <Button 
                       size="lg" 
-                      className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg font-semibold transition-all duration-300 transform hover:scale-105"
+                      className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105"
                     >
-                      Get Free Security Assessment
+                      GET A FREE SECURITY ASSESSMENT
                     </Button>
                     <Button 
                       variant="outline" 
                       size="lg" 
-                      className="border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 text-lg font-semibold transition-all duration-300"
+                      className="border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white px-8 py-4 text-lg font-semibold transition-all duration-300"
                     >
-                      Learn More
+                      LEARN MORE
                     </Button>
                   </div>
+                </div>
+
+                {/* Right Image */}
+                <div className="flex justify-center">
+                  <img
+                    src={slide.image}
+                    alt="Security Personnel"
+                    className="w-full max-w-lg h-auto object-contain"
+                  />
                 </div>
               </div>
             </div>
