@@ -95,7 +95,7 @@ const StatsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Group Facts and Figures
           </h2>
-          <p className="text-blue-100 text-lg">*As of December 2024</p>
+          <p className="text-teal-100 text-lg">*As of December 2024</p>
         </div>
 
         {/* Stats Grid */}
