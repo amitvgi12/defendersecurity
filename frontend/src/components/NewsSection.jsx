@@ -101,7 +101,7 @@ const NewsSection = () => {
               <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
                 Career Opportunities
               </h3>
-              <p className="text-red-100 text-lg mb-8 max-w-2xl mx-auto">
+              <p className="text-teal-100 text-lg mb-8 max-w-2xl mx-auto">
                 At Defender Security Services, we believe that human resource is the most valuable asset of the company. Join our growing team and build a rewarding career in the security industry.
               </p>
               <Button 
