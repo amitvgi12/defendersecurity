@@ -28,7 +28,7 @@ const AboutSection = () => {
             </div>
 
             <Button 
-              className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 text-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               Want to Know More
             </Button>
