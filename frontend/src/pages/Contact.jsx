@@ -76,7 +76,7 @@ const Contact = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Contact Us
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-teal-100 max-w-3xl mx-auto">
               Get in touch for security consultations, quotes, or any inquiries about our services
             </p>
           </div>
