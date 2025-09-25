@@ -43,7 +43,7 @@ const BusinessLines = () => {
               <CardContent className="p-8">
                 {getIcon(index)}
                 
-                <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-red-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-teal-600 transition-colors duration-300">
                   {line.title}
                 </h3>
                 
